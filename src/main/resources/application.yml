@@ -6,3 +6,12 @@ spring:
     password: root
     platform: mysql
     driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update   # jpa 正向工程
+    show-sql: true       # 显示SQL
+mybatis:
+  mapper-locations: classpath:mapper/*.xml  #配置映射文件
+  type-aliases-package: com.example.test.bean #配置实体类
+server:
+  port: 8080
