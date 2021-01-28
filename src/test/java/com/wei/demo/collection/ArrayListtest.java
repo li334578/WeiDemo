@@ -6,7 +6,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -16,12 +15,12 @@ import java.util.List;
  * @Description
  */
 @SpringBootTest
-public class Listtest {
-    private static final Logger logger = LoggerFactory.getLogger(Listtest.class);
+public class ArrayListtest {
+    private static final Logger logger = LoggerFactory.getLogger(ArrayListtest.class);
 
     @Test
     public void testadd() {
-        List list = new ArrayList();
+        ArrayList list = new ArrayList();
 //      add 添加内容 add(String,int),指定下标添加内容
         list.add("demo1");
         list.add("demo2");
