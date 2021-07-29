@@ -1,4 +1,4 @@
-package com.wei.demo.collection;
+package com.wei.demo.Collection.List;
 
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
@@ -15,7 +15,7 @@ import java.util.List;
  * @Description
  */
 @SpringBootTest
-public class ArrayListtest {
+public class ArrayListtest{
     private static final Logger logger = LoggerFactory.getLogger(ArrayListtest.class);
 
     @Test
@@ -25,7 +25,15 @@ public class ArrayListtest {
         list.add("demo1");
         list.add("demo2");
         list.add("demo3");
-        list.add("demo2");
+        list.set(1,"test");
+        System.out.println("for循环遍历");
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
+        System.out.println("foreach循环遍历");
+        for (Object str: list) {
+            System.out.println(str);
+        }
 //      indexOf目标第一次出现下标
         int demo2 = list.indexOf("demo2");
         logger.info("demo位置:"+ demo2);
