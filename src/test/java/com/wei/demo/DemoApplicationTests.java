@@ -29,4 +29,11 @@ class DemoApplicationTests {
 
     }
 
+    @Test
+    void tets() {
+        String a = "QAZ";
+        String b = "QAZ";
+        System.out.println(a == b);
+    }
+
 }

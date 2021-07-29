@@ -1,13 +1,12 @@
-package com.wei.demo.collection;
+package com.wei.demo.Collection;
 
+import com.wei.demo.Collection.List.ArrayListtest;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**

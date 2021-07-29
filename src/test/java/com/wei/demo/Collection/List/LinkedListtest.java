@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.LinkedList;
 
 /**
- * @Title LinkedList
+ * @Title LinkedListtest
  * @Author wei
  * @Date 2021/1/28 13:08
  * @Description
